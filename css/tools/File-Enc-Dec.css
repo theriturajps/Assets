@@ -1,0 +1,21 @@
+.dropzone {
+	border: 4px dashed gray;
+	width: 250px;
+	padding: 0 2% 0 2%;
+	text-align: center;
+	}
+.dropzonearea{
+	display: block;
+	margin:auto;
+	padding-top: 20px;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
