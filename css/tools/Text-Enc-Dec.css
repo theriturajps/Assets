@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box
+}
+
+/*div.masthead {   text-align: center;   background-color: #bbb;   margin: -10px 0 }*/
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block
+}
+
+input[type=button] {
+	background-color: #015ee5;
+	color: #fff;
+	padding: 12px 20px;
+	margin: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	font-size: 16px;
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out
+}
+
+.col-25,
+.col-75 {
+	float: left;
+	margin-top: 6px
+}
+
+input[type=button]:hover {
+	background-color: #00f
+}
+
+.col-25 {
+	width: 25%
+}
+
+.col-75 {
+	width: 75%
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+@media screen and (max-width:600px) {
+
+	.col-25,
+	.col-75,
+	input[type=button] {
+		width: 90%;
+		margin-top: 0;
+		margin-left: 10px;
+		float: left
+	}
+}
